@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="container mt-3 text-primary">
+  <div id="app" class="container">
     <HeaderComponent />
     <MainComponent />
     <FooterComponent />
