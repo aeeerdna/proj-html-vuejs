@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="container">
     <section>
       <NavbarComponent />
     </section>

@@ -1,7 +1,7 @@
 <template>
-  <div id="app" class="container">
+  <div id="app">
     <HeaderComponent />
-    <MainComponent />
+    <MainComponent :cards="courses" />
     <FooterComponent />
   </div>
 </template>
@@ -10,6 +10,7 @@
 import HeaderComponent from "@/components/HeaderComponent.vue";
 import MainComponent from "@/components/MainComponent.vue";
 import FooterComponent from "@/components/FooterComponent.vue";
+import courses from "@/assets/data/courses.json";
 
 export default {
   name: "App",
@@ -17,6 +18,11 @@ export default {
     HeaderComponent,
     MainComponent,
     FooterComponent,
+  },
+  data() {
+    return {
+      courses,
+    };
   },
 };
 </script>
