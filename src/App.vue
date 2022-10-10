@@ -24,4 +24,8 @@ export default {
 <style lang="scss">
 @import "~bootstrap/scss/bootstrap.scss";
 @import "./components/styles/generic.scss";
+
+#app {
+  color: #3f3a64;
+}
 </style>
